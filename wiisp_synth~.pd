@@ -1,0 +1,57 @@
+#N canvas 0 50 1146 555 10;
+#X obj 87 88 vsl 60 256 0 1 0 1 empty empty empty 0 -9 0 10 -4032 -1
+-1 17700 0;
+#X obj 87 367 s freq_a;
+#X obj 147 397 s freq_b;
+#X obj 207 367 s fm;
+#X obj 267 397 s dry;
+#X obj 327 367 s wet;
+#X obj 387 397 s dly_ms;
+#X obj 447 367 s dly_fm;
+#X obj 507 397 s fdbk;
+#X obj 567 367 s lpf;
+#X obj 627 397 s lpf_fm_a;
+#X obj 687 367 s lpf_fm_b;
+#X obj 747 397 s glide;
+#X obj 147 88 vsl 60 256 0 1 0 1 empty empty empty 0 -9 0 10 -4032
+-1 -1 2400 0;
+#X obj 207 88 vsl 60 256 0 1 0 1 empty empty empty 0 -9 0 10 -4032
+-1 -1 3600 0;
+#X obj 267 88 vsl 60 256 0 1 0 1 empty empty empty 0 -9 0 10 -4032
+-1 -1 19800 0;
+#X obj 327 88 vsl 60 256 0 1 0 1 empty empty empty 0 -9 0 10 -4032
+-1 -1 20600 0;
+#X obj 387 88 vsl 60 256 0 1 0 1 empty empty empty 0 -9 0 10 -4032
+-1 -1 6000 0;
+#X obj 447 88 vsl 60 256 0 1 0 1 empty empty empty 0 -9 0 10 -4032
+-1 -1 25500 0;
+#X obj 507 88 vsl 60 256 0 1 0 1 empty empty empty 0 -9 0 10 -4032
+-1 -1 9100 0;
+#X obj 567 88 vsl 60 256 0 1 0 1 empty empty empty 0 -9 0 10 -4032
+-1 -1 25500 0;
+#X obj 627 88 vsl 60 256 0 1 0 1 empty empty empty 0 -9 0 10 -4032
+-1 -1 4500 0;
+#X obj 687 88 vsl 60 256 0 1 0 1 empty empty empty 0 -9 0 10 -4032
+-1 -1 23200 0;
+#X obj 747 88 vsl 60 256 0 1 0 1 empty empty empty 0 -9 0 10 -4032
+-1 -1 20200 0;
+#X obj 827 327 dronefly_and_vcf~;
+#X text 41 22 Wiisp Synth;
+#X text 51 32 Wiisp Synth;
+#X text 61 42 Wiisp Synth;
+#X text 851 452 Akunull.com;
+#X msg 17 86 \; pd dsp 1 \;;
+#X text 71 52 Wiisp Synth;
+#X text 81 62 Wiisp Synth;
+#X connect 0 0 1 0;
+#X connect 13 0 2 0;
+#X connect 14 0 3 0;
+#X connect 15 0 4 0;
+#X connect 16 0 5 0;
+#X connect 17 0 6 0;
+#X connect 18 0 7 0;
+#X connect 19 0 8 0;
+#X connect 20 0 9 0;
+#X connect 21 0 10 0;
+#X connect 22 0 11 0;
+#X connect 23 0 12 0;
